@@ -3,7 +3,6 @@ body {
     font-size: 0.8em;
     margin:0px;
     padding:0px;
-    theme: jekyll-theme-hacker;
 }
 
 
@@ -57,4 +56,5 @@ text-align:center;
 html { background: url(polina.jpg) #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 }
-  
+ 
+@import "{{ site.theme }}";
