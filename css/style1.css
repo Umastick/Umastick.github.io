@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    margin:0px;
+    padding:0px;
+}
+
+
+header, nav, article, footer{
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 8px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+	text-align:center;
+}
+
+footer nav{ 
+	
+	border: none;
+	text-align: center;
+	
+}
+
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+
+
+div p { 
+text-align:center;
+}
+	
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(images/Hacker0.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+    
+@media screen and (max-device-width: 800px) {
+html { background: url(polina.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
+}
+  
