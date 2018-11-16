@@ -1,97 +1,110 @@
-
-body {
-    margin:0px;
-    padding:0px;
+body
+{
+	margin:0px;
+	padding:0px;
 }
 
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem;
+h1
+{
+	font-size: 4rem;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .3rem;
 }
 
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background: url('images/Hacker0.jpg') no-repeat;
-    background-size: cover;
-    transition: 1s opacity;
+video
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background: url('images/Hacker0.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
 }
 
-img { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -99;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
+img
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -99;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
 	opacity:0.15;
 }
 
-
-div{ 
-  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  position:absolute;
-  left:30%;
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  font-size: 1.5rem;
+div
+{
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	position:absolute;
+	left:30%;
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	margin:2rem;
+	font-size: 1.5rem;
 }
 
-div button { 
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
+div button
+{
+	display: block;
+	width: 80%;
+	padding: .4rem;
+	border: none;
+	margin: 1rem auto;
+	font-size: 1.3rem;
+	background: rgba(255,255,255,0.23);
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s background;
 }
-#Hacker0 button:hover { 
-   background: rgba(0,0,0,0.5);
+
+#Hacker0 button:hover
+{
+	background: rgba(0,0,0,0.5);
 }
-p, blockquote{
-    text-align: center;
-    font-size:26;
+
+p, blockquote
+{
+	text-align: center;
+	font-size:26;
 }
-a {
-  display: block;
-  width: 80%;
-  padding: .4rem;
-  border: none; 
-  text-decoration: none;
-  text-align: center;
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
-  color: #fff;
-  border-radius: 3px; 
-  cursor: pointer;
-  transition: .3s background;
+
+a
+{
+	display: block;
+	width: 80%;
+	padding: .4rem;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	margin: 1rem auto;
+	font-size: 1.3rem;
+	background: rgba(255,255,255,0.23);
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .3s background;
 }
-a:hover{
-  background:rgba(0,0,0,0.9);
+
+a:hover
+{
+	background:rgba(0,0,0,0.9);
 }
+
 @media screen and (max-device-width: 500px) { 
   div{width:70%;} 
 }
