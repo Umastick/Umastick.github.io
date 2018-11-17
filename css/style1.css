@@ -59,7 +59,7 @@ header img
 nav
 {
 	z-index:999;
-	background-image:url("images/matrixeffect.jpg");
+	background-image:url("../images/matrixeffect.jpg");
 	margin:0;
 	width: 99.85%;
 	text-align: center;
@@ -80,7 +80,6 @@ nav li
 	font-stretch: extra-expanded;
 	font-weight: 500;
 	font-variant: small-caps;
-	background-color : black;
 }
 
 section
