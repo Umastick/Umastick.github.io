@@ -135,7 +135,8 @@ footer nav ul li
 	display: inline-block;
 	margin-left:5px;
 	margin-right:5px;
-padding-right: 20px}
+	padding-right: 20px
+}
 
 h1
 {
@@ -211,6 +212,7 @@ div p
 @media screen and (max-device-width: 800px) {
   html { background: url(images/Hacker0.jpg) #000 no-repeat center center fixed; }
   #bgvid { display: none; }
+}
     
 @media screen and (max-device-width: 800px) {
 html { background: url(images/Hacker0.jpg) #000 no-repeat center center fixed; }
