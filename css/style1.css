@@ -56,7 +56,7 @@ header img
 	border-right:0;
 }
 
-#menu
+nav
 {
 	z-index:999;
 	background-image:url(/Hackers-master/images/matrixeffect.jpg);
@@ -68,7 +68,7 @@ header img
 	border: 1px solid grey;
 }
 
-#menu li
+nav li
 {
 	display:inline-block;
 	margin-left :20px;
@@ -213,7 +213,7 @@ div p
   #bgvid { display: none; }
     
 @media screen and (max-device-width: 800px) {
-html { background: url(polina.jpg) #000 no-repeat center center fixed; }
+html { background: url(images/Hacker0.jpg) #000 no-repeat center center fixed; }
 #bgvid { display: none; }
 }
  
