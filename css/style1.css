@@ -59,7 +59,7 @@ header img
 nav
 {
 	z-index:999;
-	background-image:url(/Hackers-master/images/matrixeffect.jpg);
+	background-image:url("images/matrixeffect.jpg");
 	margin:0;
 	width: 99.85%;
 	text-align: center;
